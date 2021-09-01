@@ -1,11 +1,14 @@
 <template>
-<h1>Hello World</h1>
+  <the-home/>
 </template>
 
 <script>
-
+import TheHome from "./pages/TheHome";
 export default {
   name: 'App',
+  components: {
+    TheHome
+  }
 }
 </script>
 
