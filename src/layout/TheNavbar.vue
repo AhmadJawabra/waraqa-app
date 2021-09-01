@@ -1,10 +1,17 @@
 <template>
-  <button class="btn btn--primary">تسجيل</button>
-  <button class="btn btn--outline">دخول</button>
-
-  <button class="btn btn--primary btn--block">تسجيل</button>
-
-  <button class="btn btn--transparent">دخول</button>
+  <header>
+    <nav class="nav container">
+        <ul class="list">
+          <li>
+            <a href="#" class="btn btn--primary">تسجيل</a>
+          </li>
+          <li>
+            <a href="#" class="btn btn--outline">دخول</a>
+          </li>
+        </ul>
+        <a href="/"><img src="../assets/images/header-logo.svg" alt="logo image"></a>
+    </nav>
+  </header>
 </template>
 
 <script>
