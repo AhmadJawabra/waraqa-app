@@ -1,4 +1,13 @@
+.block {
+  padding: 6rem 1rem;
+  &__header {
+    text-align: right;
+    padding: 0 1rem;
+  }
+}
+
+
 .container {
-  max-width: 1140px;
+  max-width: 1270px;
   margin: 0 auto;
 }

@@ -1,8 +1,8 @@
 @import "../abstracts/variables";
 
 .btn {
-  font-size: 1.8rem;
-  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  padding: .8rem 6rem;
   border: 0;
   border-radius: 40px;
   cursor: pointer;
@@ -13,7 +13,6 @@
 }
 
 .btn--block {
-  width: 100%;
   display: inline-block;
 }
 
@@ -21,6 +20,7 @@
   background: $color-primary;
   color: white;
   transition: all 0.2s ease-in;
+  border: 2px solid transparent;
   &:hover {
     text-decoration: none;
     background: white;
@@ -48,7 +48,7 @@
   border: 2px solid white;
   transition: all 0.2s ease-in;
   &:hover {
-    border: 2px solid darken(white, 10%);
+    border: 2px solid darken(white, 20%);
     text-decoration: none;
     color: darken(white, 10%);
   }

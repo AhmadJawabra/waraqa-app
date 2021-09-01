@@ -1,0 +1,11 @@
+.banner {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 525px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  &__tagline {
+    font-size: 1.6rem;
+  }
+}
