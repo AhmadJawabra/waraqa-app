@@ -1,0 +1,15 @@
+@import "../abstracts/variables";
+
+.icon-container {
+  background: $color-secondary;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  svg {
+    color: $color-icons;
+  }
+}
+
