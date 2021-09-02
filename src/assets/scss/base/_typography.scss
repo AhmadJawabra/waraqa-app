@@ -56,8 +56,28 @@ hr {
   margin-bottom: 2rem;
 }
 
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
 .w-50 {
   width: 50%;
 }
 
+.w-75 {
+  width: 75%;
+}
 
+.centered {
+  margin: 0 auto;
+}
+
+.f-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

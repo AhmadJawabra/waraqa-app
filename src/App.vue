@@ -5,31 +5,13 @@
 
   <h1>display icon demo</h1>
 
-  <CustomIcon
-      iconName="search"
-      iconSize="4x"
-  />
-  <CustomIcon
-      iconName="edit"
-      iconSize="4x"
-  />
-  <CustomIcon
-      iconName="lightbulb"
-      iconSize="4x"
-  />
-  <CustomIcon
-      iconName="file-alt"
-      iconSize="4x"
-  />
-  <CustomIcon
-      iconName="tags"
-      iconSize="4x"
-  />
 
-  <CustomIcon
-      iconName="users"
-      iconSize="4x"
-  />
+
+
+
+
+
+
 
   <button class="btn btn--primary">تسجيل</button>
   <button class="btn btn--outline">دخول</button>
