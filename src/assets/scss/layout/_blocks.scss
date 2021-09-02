@@ -1,11 +1,12 @@
 .block {
   padding: 6rem 1rem;
   &__header {
-    text-align: right;
-    padding: 0 1rem;
+    text-align: center;
+    .text-body {
+      font-size: 1.8rem;
+    }
   }
 }
-
 
 .container {
   max-width: 1270px;

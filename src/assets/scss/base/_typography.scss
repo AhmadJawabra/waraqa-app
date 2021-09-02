@@ -20,16 +20,36 @@ h1 {
   font-size: 4rem;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.3rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+hr {
+  border-top: 1px solid rgb(209, 221, 243);
+}
+
 .text-white {
   color: white;
 }
 
 .text-heading {
-  color: $color-primary;
+  color: $color-headings;
 }
 
 .text-body {
   color: $color-body;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
 }
 
 .mb-2 {
