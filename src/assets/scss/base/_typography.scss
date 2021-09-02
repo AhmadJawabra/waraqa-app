@@ -14,6 +14,15 @@ html {
 body {
   margin: 0;
   font-family: 'Cairo', sans-serif;
+
+  &::-webkit-scrollbar {
+    width: 0.6rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: darken($color-primary, 30%);
+    border-radius: 20px;
+  }
 }
 
 h1 {
