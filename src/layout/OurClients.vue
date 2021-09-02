@@ -1,9 +1,10 @@
 <template>
   <section class="container block">
-    <header class="block__header" data-aos="fade-left">
+    <header class="block__header" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
       <h2 class="mb-2 text-heading">عملاؤنا</h2>
     </header>
-    <div class="grid grid--1x4" data-aos="fade-up">
+    <div class="grid grid--1x4" data-aos="fade-down" data-aos-easing="linear">
       <div v-for="img in clientsLogo" class="client-wrapper">
         <img :src="img.src" :alt="img.alt">
       </div>
