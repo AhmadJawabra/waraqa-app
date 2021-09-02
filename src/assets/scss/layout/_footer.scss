@@ -1,0 +1,61 @@
+@import "../abstracts/variables";
+
+.footer {
+  background: $color-primary;
+  &__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer-brands {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      li {
+        margin-right: 1rem;
+      }
+      @include respond(phone) {
+        flex-direction: column;
+        margin-bottom: 1rem;
+        li {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+    .footer-logo {
+      transform: translatex(98px);
+      @include respond(tab-port) {
+        flex-direction: column;
+        transform: translatex(0);
+      }
+    }
+    .footer-list {
+      display: flex;
+      list-style: none;
+      padding-left: 0;
+      li{
+        margin-right: 1rem;
+        font-size: 1.6rem;
+        text-decoration: none;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+      @include respond(tab-port) {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+    }
+    @include respond(phone) {
+      flex-direction: column;
+    }
+  }
+  &__copyright-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: .8rem 0;
+  }
+}

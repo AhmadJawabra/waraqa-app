@@ -4,6 +4,7 @@
   <the-employee />
   <why-us />
   <our-clients />
+  <the-footer />
 </template>
 
 <script>
@@ -12,9 +13,11 @@ import TheBanner from "../layout/TheBanner";
 import TheEmployee from "../layout/TheEmployee";
 import WhyUs from "../layout/WhyUs";
 import OurClients from "../layout/OurClients";
+import TheFooter from "../layout/TheFooter";
 export default {
   name: "TheHome",
   components: {
+    TheFooter,
     OurClients,
     WhyUs,
     TheEmployee,
