@@ -9,7 +9,6 @@ import App from './App.vue'
 
 library.add(fas,fab)
 
-
 createApp(App)
     .component('fa', FontAwesomeIcon )
     .mount('#app')

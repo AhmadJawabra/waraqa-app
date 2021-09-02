@@ -1,10 +1,10 @@
 <template>
   <section class="block container">
-    <header class="block__header mb-3">
+    <header data-aos="zoom-in-up" class="block__header mb-3">
       <h2 class="mb-2 text-heading">لماذا منصة ورقة</h2>
       <p class="text-body">لأن انضمامك لمنصة ورقة سيتيح لك الوصول لما يأتي</p>
     </header>
-    <div class="grid grid--1x3">
+    <div data-aos="fade-right" class="grid grid--1x3">
       <article>
         <CustomIcon
             class="mb-1"
@@ -54,7 +54,7 @@
         <p class="text-heading">أسعار منافسة</p>
       </article>
     </div>
-    <div class="f-centered mt-2">
+    <div class="f-centered mt-2" data-aos="fade-up">
       <button class="btn btn--primary">طلب انضمام عميل</button>
     </div>
   </section>
