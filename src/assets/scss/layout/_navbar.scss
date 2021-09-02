@@ -9,4 +9,17 @@
     padding-left: 0;
     display: flex;
   }
+  @include respond(phone) {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 0;
+    .list {
+      display: flex;
+      flex-direction: column;
+      height: 150px;
+      .btn {
+        display: block;
+      }
+    }
+  }
 }
