@@ -13,3 +13,12 @@
   }
 }
 
+.client-wrapper {
+  width: 235px;
+  height: 85px;
+  border-radius: 10px;
+  border: 1px solid $color-border;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
